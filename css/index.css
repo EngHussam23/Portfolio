@@ -1,0 +1,86 @@
+* {
+    font-family: 'Nova Cut', cursive;
+    font-size: 18px;
+    color: #555555;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    background-color: #F3F3F3;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    padding: 50px;
+    gap: 100px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    min-height: calc(100vh - 50px);
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 400px;
+}
+
+.welcome_message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.home_page_header {
+    font-size: 80px;
+    margin: 0px;
+    color: #6A5ACD;
+    text-align: center;
+}
+
+.home_page_subheader {
+    font-size: 24px;
+    color: #6A5ACD;
+    text-align: center;
+}
+
+.journey_section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.journey_title {
+    font-size: 30px;
+    color: #6A5ACD;
+    text-align: center;
+}
+
+.journey_title:hover {
+    font-size: 45px;
+}
+
+.journey_body {
+    text-align: start;
+}
+
+.journey_body:hover {
+    font-size: 33px;
+}
+
+footer {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
