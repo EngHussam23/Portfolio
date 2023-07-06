@@ -8,9 +8,9 @@ Hello am Hussam Alraggad, a UX/UI Designer and enthusiast about designing enthra
 
 - 2019 - 2023: Software Engineering Bachelor at [The Hashimite University](https://hu.edu.jo/)
 
-- 2022 - Present: Front-End Flutter Development for Android
+- 2022 - Present: Front-End Flutter Development for Android at [Udemy](https://www.udemy.com/)
 
-- 2023 - Present: Front-End Web Development
+- 2023 - Present: Front-End Web Development at [Abdul Aziz Al Ghurair School of Advanced Computing (ASAC)](https://www.linkedin.com/company/asacltuc/mycompany/)
 
 - 2023 - Present: UX/UI Design Program at [Abdul Aziz Al Ghurair School of Advanced Computing (ASAC)](https://www.linkedin.com/company/asacltuc/mycompany/)
 
