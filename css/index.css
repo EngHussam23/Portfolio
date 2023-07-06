@@ -21,17 +21,17 @@ nav {
     gap: 100px;
 }
 
-nav a:hover {
+a:hover {
     text-decoration: underline;
 }
 
 main {
     min-height: calc(100vh - 50px);
-    padding: 200px;
+    padding: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 400px;
+    gap: 250px;
 }
 
 .welcome_message {
@@ -77,6 +77,81 @@ main {
 
 .journey_body:hover {
     font-size: 33px;
+}
+
+.my_work_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 75px;
+}
+
+.my_work_section {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.my_work_section article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.paragraph_header {
+    font-size: 24px;
+    color: #6A5ACD;
+}
+
+.link_to_project {
+    color: #FF69B4;
+}
+
+.paragraph_header:hover {
+    font-size: 32px;
+}
+
+.paragraph_body:hover,
+.paragraph_body a:hover {
+    font-size: 24px;
+}
+
+.snapshots {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.snapshots section {
+    background-color: rgba(255, 105, 180, 0.2);
+    border-radius: 10px;
+    padding: 25px;
+    height: 300px;
+}
+
+.wireframes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wireframes h2 a {
+    font-size: 24px;
+    color: #6a5acd;
+    padding: 100px;
+}
+
+.visual_design {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.visual_design h2 a {
+    font-size: 24px;
+    color: #6A5ACD;
+    padding: 100px;
 }
 
 footer {
