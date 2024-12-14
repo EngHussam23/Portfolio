@@ -1,0 +1,38 @@
+* {
+  font-family: "Poppins", cursive;
+  font-size: 18px;
+  color: #dfdfdf;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+}
+
+html {
+  background-color: #1a1a1a;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+display: flex;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+}
+
+a:active {
+}
+
+footer {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
