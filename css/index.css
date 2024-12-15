@@ -1,14 +1,34 @@
+@keyframes LightShineAnimation {
+}
+
 .Hero {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 52px;
+  background: linear-gradient(
+      0deg,
+      rgba(26, 26, 26, 0.4) 0%,
+      rgba(26, 26, 26, 0.4) 100%
+    ),
+    url("/assets/Lake.jpg") lightgray 50% / cover no-repeat;
+  border-radius: 16px;
+  .HeroBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .Person {
+    width: 300px;
+  }
   h1 {
     font-size: 64px;
-    font-weight: 600;
+    font-weight: 500;
   }
   h2 {
     font-size: 32px;
-    font-weight: 500;
+    font-weight: 400;
   }
 }
 
@@ -17,5 +37,106 @@ h3 {
 }
 
 .Section {
-  /*Update the section styling and padding....*/
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.About {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  img {
+    width: 500px;
+    border-radius: 16px;
+  }
+}
+
+.AboutBodyText {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: inside;
+  h3 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+}
+
+.ExperiencesTitle {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.Contacts {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.ContactsForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  gap: 16px;
+  margin-top: 80px;
+  input,
+  textarea,
+  button {
+    color: #1a1a1a;
+    width: 600px;
+    min-width: 200px;
+    padding: 12px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: none;
+    border: none;
+    margin: 0;
+    cursor: auto;
+  }
+}
+
+.ContactsForm button {
+  width: 100%;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+.ContactsForm button:hover {
+  background-color: rgba(26, 115, 232, 0.75);
+  color: #dfdfdf;
+}
+
+.ContactsForm button:active {
+  background-color: #1a73e8;
+  color: #1a1a1a;
+}
+
+@keyframes TextRotatationAnimation {
+  0% {
+    transform: rotate(-3deg);
+    color: #1a73e8;
+  }
+  50% {
+    color: #fdfdfd;
+    box-shadow: 0 0 12px #fdfdfd;
+  }
+  100% {
+    transform: rotate(3deg);
+    color: #4fc3f7;
+  }
+}
+
+.Contacts div {
+  position: absolute;
+  top: 0;
+  font-size: 32px;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 16px;
+  animation: TextRotatationAnimation 2s infinite alternate;
 }

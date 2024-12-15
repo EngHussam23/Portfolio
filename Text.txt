@@ -1,5 +1,5 @@
 Nav links:
-- exp => scroll to nav link.
+- exp => scroll-to nav link.
 - contacts.
 - services.
 
