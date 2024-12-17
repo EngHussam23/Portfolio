@@ -1,147 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/MainStyles.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>emailjs.init("yoR6VzU0SdiKoQTjg");</script>
+    <script defer src="JS\ContactsFormHandler.js"></script>
+    <title>Home Page</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap" rel="stylesheet">
-    <title>Intro</title>
-</head>
-
-<body>
-    <header>
-        <nav>
-            <li><a href="index.html">Intro</a></li>
-            <li><a href="experience.html" target="_blank">Experience</a></li>
-            <li><a href="contacts.html" target="_blank">Contact</a></li>
-        </nav>
-    </header>
+  <body>
+    <nav>
+      <img src="assets\PersonalLogoSolidWhite-Transparent.png" alt="Logo" />
+      <section>
+        <a href="">Home</a>
+        <a href="">Experiences</a>
+        <a href="">Contacts</a>
+      </section>
+    </nav>
     <main>
-        <section class="welcome_message">
-            <h1 class="home_page_header">
-                Hi, am Hussam Alraggad!
-            </h1>
-            <h4 class="home_page_subheader">
-                A Front-end Flutter and Web Developer With Beginner Experience UX/UI Design
-                and Looking Forward to Indulge in the World of UX/UI Design.
-            </h4>
-        </section>
-        <section class="journey_section">
-            <h2 class="journey_title">My Journey From Software Development to UX/UI Design</h2>
-            <p class="journey_body">
-                I started my journey as a software developer in 2021, and I worked with Flutter for android
-                applications. I used to design and build applications by my self and somtimes with a small team consists
-                of four developers, we stuggled in designing being conserned about the design we want for the
-                application we are building whether it's codable or not. In 2023 I switched to UX/UI Design to sharpen
-                my designing and decision making skills towards how to design what, in order to become a good designer
-                and developer at the same time and to break the gap between developers and designers too.
+      <section class="Hero">
+        <!-- <img
+          src="assets\Personal_image_transparent.png"
+          alt="Person"
+          class="Person"
+        /> -->
+        <div class="HeroBody">
+          <h1 class="HeroHeader">Hello, am Hussam Alraggad</h1>
+          <h2 class="Slogan">UI UX & Product Designer & Frontend Developer</h2>
+        </div>
+      </section>
+      <section class="Section About">
+        <h3>A Designer with a Developer Mindset!</h3>
+        <div class="AboutBody">
+          <div class="AboutBodyText">
+            <p>
+              I’m Hussam Alraggad, a UI/UX & Product Designer and Frontend
+              Developer based in Jordan. I love creating intuitive designs and
+              turning them into functional code. When I’m not crafting digital
+              experiences, you’ll find me playing basketball or diving into
+              self-improvement books like Atomic Habits.
             </p>
-        </section>
-        <section class="my_work_section">
-            <section>
-                <article>
-                    <section>
-                        <h3 class="paragraph_header">Barista Brews</h3>
-                        <p class="paragraph_body">
-                            Welcome to Barista Brews, the ultimate destination for coffee lovers. Our website is
-                            dedicated to providing you with a wide range of coffee recipes that you can make right in
-                            the
-                            comfort of
-                            your own home. Whether you're a seasoned coffee enthusiast or just starting your journey
-                            into
-                            the
-                            world
-                            of brewing, we've got you covered. With our collection of carefully curated recipes, you can
-                            become
-                            your
-                            own barista and create delicious coffee drinks with ease. Say goodbye to expensive trips to
-                            cafes
-                            and
-                            hello to budget-friendly coffee indulgence. Explore our website, discover new flavors, and
-                            embark on
-                            a
-                            coffee-making adventure like never before. Ready to dive deeper? Experience the full website
-                            and
-                            discover more about my work!
-                            <a href="https://enghussam23.github.io/Barista_Brews/" target="_blank"
-                                class="link_to_project">Click
-                                Here</a>
-                        </p>
-                    </section>
-                    <img src="assets/Barista_Brews_logo.png" alt="Barista Brews logo">
-                </article>
-                <section class="snapshots">
-                    <section class="wireframes">
-                        <h2>
-                            <a href="https://miro.com/app/board/uXjVMCbyQ6M=/?share_link_id=119089339486"
-                                target="_blank">Wireframes</a>
-                        </h2>
-                        <img src="assets/wirframes.png" alt="Wireframes image" width="600px">
-                    </section>
-                    <section class="visual_design">
-                        <img src="assets/Visual_Design.png" alt="" width="600px">
-                        <h2>
-                            <a href="https://www.figma.com/file/gA0qbl9iCcGIiaY1XoH2mp/Untitled?type=design&node-id=0%3A1&mode=design&t=nFrJSZAL4UFeSUYZ-1"
-                                target="_blank">Visual
-                                Design</a>
-                        </h2>
-                    </section>
-                </section>
-            </section>
-            <section>
-                <article>
-                    <img src="assets/Total_Control_Logo.png" alt="Total Control logo">
-                    <section>
-                        <h3 class="paragraph_header">Total Control</h3>
-                        <p class="paragraph_body">
-                            Introducing Total Control, your ultimate time management companion. Designed with parents
-                            and mobile phone users in mind, our application helps you take charge of your phone usage
-                            and
-                            achieve
-                            better time management. With Total Control, you can effortlessly manage your screen time,
-                            set
-                            limits,
-                            and regain control of your day. Our user-friendly interface and intuitive features make it
-                            easy
-                            to
-                            track
-                            and manage your phone usage, ensuring a healthier digital lifestyle. Available on Android
-                            devices,
-                            Total
-                            Control empowers you to break free from phone addiction and make the most of your precious
-                            time.
-                            Curious
-                            to explore further? Take a deep dive into the full website to see more!
-                            <a href="https://github.com/EngHussam23/Total-Control" target="_blank"
-                                class="link_to_project">Click
-                                Here</a>
-                        </p>
-                    </section>
-                </article>
-                <section class="snapshots">
-                    <section class="wireframes">
-                        <h2>
-                            <a href="">Wireframes</a>
-                        </h2>
-                        <img src="assets/coming_soon.png" alt="comming soon" width="600px" height="460px">
-                    </section>
-                    <section class="visual_design">
-                        <img src="assets/coming_soon.png" alt="comming soon" width="600px" height="460px">
-                        <h2>
-                            <a href="">Visual Design</a>
-                        </h2>
-                    </section>
-                </section>
-            </section>
-        </section>
+            <br />
+            <p>
+              My Current Professions:
+              <ul>
+                <li>UI UX & Product Design (Present)</li>
+                <li>Frontend Developer (HTML, CSS, React, and TypeScript)</li>
+              </ul>
+            </p>
+            <br />
+            <p>
+              Links:
+              <ul>
+                <li>
+                  <a
+                  href="https://www.behance.net/HussamAlraggad"
+                  target="_blank"
+                  >Behance</a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/EngHussam23" target="_blank"
+                  >GitHub</a
+                  >
+                </li>
+              </ul>
+            </p>
+          </div>
+          <img src="/assets/Figma&VsCode2.png" alt="About" class="AboutImg" />
+        </div>
+      </section>
+      <section class="Section Contacts">
+        <div class="ContactsTitle">Lets Collaborate!</div>
+        <form id="contactForm" class="ContactsForm">
+          <input
+            type="text"
+            title="FulName"
+            placeholder="Full Name (First & Last)"
+            required
+          />
+          <input type="email" title="email" placeholder="Email" required />
+          <input
+            type="number"
+            itle="MobileNumber"
+            placeholder="Mobile Number"
+            required
+          />
+          <textarea
+            name="Msg"
+            title="Msg"
+            placeholder="Leave a message..."
+            id=""
+            required
+          ></textarea>
+          <button title="submit" type="submit" id="responseMessage">
+            Send message
+          </button>
+        </form>
+      </section>
     </main>
     <footer>
-        Copyrights &copy; <a href="https://github.com/EngHussam23" target="_blank"> Hussam Alraggad </a> - All rights
-        reserved!
+      <a href="https://www.linkedin.com/in/hussam-al-raggad" target="_blank">
+        Copyrights &copy; Hussam Alraggad - All rights reserved!
+      </a>
     </footer>
-</body>
-
+  </body>
 </html>

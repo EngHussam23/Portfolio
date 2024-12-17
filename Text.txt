@@ -1,0 +1,18 @@
+Nav links:
+- exp => scroll-to nav link.
+- contacts.
+- services.
+
+Hero:
+- welcome message.
+- learn more button.
+
+About: try a little bit of story telling.
+
+Experiences -not projects-:
+- Frontend Developer:
+    -Projects (Focus on the ones that showcase your skills best, even small ones).
+- UX UI Product Designer:
+    -Projects (Focus on the ones that showcase your skills best, even small ones).
+
+Skills (Highlight your design + coding skills)
