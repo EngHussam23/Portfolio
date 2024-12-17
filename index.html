@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/MainStyles.css" />
     <link rel="stylesheet" href="css/index.css" />
-    <script src="contactForm.js"></script>
-
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>emailjs.init("yoR6VzU0SdiKoQTjg");</script>
+    <script defer src="JS\ContactsFormHandler.js"></script>
     <title>Home Page</title>
   </head>
 
@@ -26,11 +27,10 @@
           alt="Person"
           class="Person"
         /> -->
-        <div class="HeroBody double-stroke-border">
+        <div class="HeroBody">
           <h1 class="HeroHeader">Hello, am Hussam Alraggad</h1>
           <h2 class="Slogan">UI UX & Product Designer & Frontend Developer</h2>
         </div>
-        
       </section>
       <section class="Section About">
         <h3>A Designer with a Developer Mindset!</h3>
@@ -96,7 +96,7 @@
             id=""
             required
           ></textarea>
-          <button title="submit" type="button" id="responseMessage">
+          <button title="submit" type="submit" id="responseMessage">
             Send message
           </button>
         </form>
