@@ -1,4 +1,12 @@
-@keyframes LightShineAnimation {
+@keyframes fadeInSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(100px); /* Start slightly below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* End at normal position */
+  }
 }
 
 .Hero {
@@ -6,28 +14,35 @@
   flex-direction: column;
   align-items: center;
   gap: 52px;
-  background: linear-gradient(
-      0deg,
-      rgba(26, 26, 26, 0.4) 0%,
-      rgba(26, 26, 26, 0.4) 100%
-    ),
-    url("/assets/Lake.jpg") lightgray 50% / cover no-repeat;
+  padding: 20vh 32px;
+  background-image: url("/assets/Lake.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
   border-radius: 16px;
+  animation: fadeInSlide 2s ease-in;
   .HeroBody {
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: center;
+    gap: 20px;
+    border-radius: 64px;
+    border: 3px solid rgba(247, 247, 247, 0.2);
+    background: rgba(247, 247, 247, 0.01);
+    backdrop-filter: blur(16px);
+    padding: 72px 40px;
+    animation: fadeInSlide 2s ease-in;
   }
+
   .Person {
     width: 300px;
   }
   h1 {
-    font-size: 64px;
-    font-weight: 500;
+    font-size: 72px;
+    font-weight: 600;
   }
   h2 {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 400;
   }
 }
@@ -37,7 +52,7 @@ h3 {
 }
 
 .Section {
-  padding: 0;
+  padding: 0 120px;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -45,28 +60,38 @@ h3 {
 
 .About {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  /* align-items: center; */
+  gap: 40px;
   img {
-    width: 500px;
+    width: 600px;
     border-radius: 16px;
   }
+  h3 {
+    font-size: 72px;
+    font-weight: 500;
+  }
+}
+
+.AboutBody {
+  display: flex;
+  justify-content: space-between;
+  list-style: inside;
 }
 
 .AboutBodyText {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  list-style: inside;
-  h3 {
-    font-size: 32px;
-    font-weight: 500;
-  }
-}
+  width: 50%;
 
-.ExperiencesTitle {
-  font-size: 32px;
-  font-weight: 500;
+  p,
+  li,
+  a {
+    font-size: 20px;
+  }
+
+  a:hover {
+    color: #4fc3f7;
+  }
 }
 
 .Contacts {
@@ -98,6 +123,16 @@ h3 {
     margin: 0;
     cursor: auto;
   }
+
+  input:hover,
+  textarea:hover {
+    background-color: #1a73e8;
+  }
+
+  input:hover::placeholder,
+  textarea:hover::placeholder {
+    color: #f7f7f7;
+  }
 }
 
 .ContactsForm button {
@@ -107,8 +142,8 @@ h3 {
 }
 
 .ContactsForm button:hover {
-  background-color: rgba(26, 115, 232, 0.75);
-  color: #dfdfdf;
+  background-color: #1a73e8;
+  color: #f7f7f7;
 }
 
 .ContactsForm button:active {
