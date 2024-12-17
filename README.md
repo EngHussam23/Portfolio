@@ -6,13 +6,13 @@ Hello am Hussam Alraggad, a UX/UI Designer and enthusiast about designing enthra
 
 ## Experience
 
-- 2019 - 2023: Software Engineering Bachelor at [The Hashimite University](https://hu.edu.jo/)
-
-- 2022 - Present: Front-End Flutter Development for Android at [Udemy](https://www.udemy.com/)
+- 2023 - Present: UX/UI Design Program at [Abdul Aziz Al Ghurair School of Advanced Computing (ASAC)](https://www.linkedin.com/company/asacltuc/mycompany/)
 
 - 2023 - Present: Front-End Web Development at [Abdul Aziz Al Ghurair School of Advanced Computing (ASAC)](https://www.linkedin.com/company/asacltuc/mycompany/)
 
-- 2023 - Present: UX/UI Design Program at [Abdul Aziz Al Ghurair School of Advanced Computing (ASAC)](https://www.linkedin.com/company/asacltuc/mycompany/)
+- 2022 - Present: Front-End Flutter Development for Android at [Udemy](https://www.udemy.com/)
+
+- 2019 - 2023: Software Engineering Bachelor at [The Hashimite University](https://hu.edu.jo/)
 
 ## Expertise
 
@@ -20,18 +20,17 @@ I have experience in wireframing, creating eye comforting visual designs, protot
 
 ## Tools & Languages I Worked With
 
-- HTML, CSS, JavaScrip: for front-end Websites Development
-- Miro & Figma: for wireframing, visual design, and prototyping
-- Dart & Flutter: for front-end Mobile Applications Development (Android)
+- Vite, React, TypeScrip: for Frontend Web Development
+- HTML, CSS, JavaScrip: for Frontend Web Development
+- Miro & Figma: for Wireframing, Visual Design, and Prototyping
+- Dart & Flutter: for Frontend Mobile Applications Development (Android)
 
 ## My Work
 
-- [My GitHub Profile](https://github.com/EngHussam23)
-  - GitHub Projects:
-    - [Barista Brews](https://enghussam23.github.io/Barista_Brews/)
-    - [Total Control](https://enghussam23.github.io/Total-Control/)
+- [GitHub](https://github.com/EngHussam23)
+- [Behance](https://www.behance.net/HussamAlraggad)
 
-## Contact me
+## Let's connect & collaborate!
 
 - LinkedIn: [Hussam Alraggad](https://www.linkedin.com/in/hussam-al-raggad/)
-- Email me at: [Hussam Alraggad](mailto:egraggad60@gmail.com)
+- Email: [Hussam Alraggad](mailto:egraggad60@gmail.com)
