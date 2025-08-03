@@ -1,6 +1,6 @@
 # Portfolio Brief
 
-SwA_zs!2QX7wWz. Hello am Hussam Alraggad, a UX/UI Designer and enthusiast about designing enthralling user experiences that win over hearts. With a sharp mind geared toward software development and a creative flair that knows no bounds, I consistently craft memorable designs that go above and beyond.
+Hello am Hussam Alraggad, a UX/UI Designer and enthusiast about designing enthralling user experiences that win over hearts. With a sharp mind geared toward software development and a creative flair that knows no bounds, I consistently craft memorable designs that go above and beyond.
 
 ![UX/UI logo](assets/UX_UI_logo.jpeg)
 
