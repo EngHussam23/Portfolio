@@ -32,7 +32,7 @@ I have experience in wireframing, creating eye comforting visual designs, protot
 - [GitHub](https://github.com/EngHussam23)
 - [Behance](https://www.behance.net/HussamAlraggad)
 
-## Let's Connect & Collaborate!
+## Let's Connect & Collaborate
 
 - [LinkedIn](https://www.linkedin.com/in/hussam-al-raggad/)
 - [Email](mailto:egraggad60@gmail.com)
